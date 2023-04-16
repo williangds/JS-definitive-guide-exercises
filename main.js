@@ -45,9 +45,7 @@ Point.prototype.r = function () {
 
 var p = new Point(1,1)
 
-console.log(p.r())
-console.log(typeof(p.r()))
-console.log(Math.sqrt(2))
+console.log(p);
 
 //define new Point methods by assign them to the prototype ojbect with the constructor function
 
